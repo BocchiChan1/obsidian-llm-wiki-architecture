@@ -1,0 +1,12 @@
+# 933.test Open-Source Automated Error Detection Config (Ruff)
+target-version = "py312"
+line-length = 140
+
+[lint]
+# F = Pyflakes (undefined names, unused/missing imports, syntax errors)
+# E9 = AST/Syntax errors
+# B = flake8-bugbear (mutable defaults, loop variable capture, bug patterns)
+# PLE = Pylint Errors (bad argument counts, nonlocal/global errors)
+# RUF = Ruff-specific bug detection rules
+select = ["F", "E9", "B", "PLE", "RUF012", "RUF013", "RUF015"]
+ignore = ["F401", "B007", "B904", "B905"]

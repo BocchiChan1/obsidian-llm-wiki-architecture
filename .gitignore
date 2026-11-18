@@ -1,0 +1,10 @@
+__pycache__/
+*.py[cod]
+.venv/
+*.lance/
+*.onnx
+*.npz
+.env
+.obsidian/workspace*.json
+900.maintenance/910.codey/919.logs/*
+!900.maintenance/910.codey/919.logs/.gitkeep
