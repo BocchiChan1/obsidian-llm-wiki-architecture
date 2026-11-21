@@ -1,0 +1,16 @@
+__pycache__/
+*.py[cod]
+.venv/
+*.lance/*
+!*.lance/.gitkeep
+900.maintenance/910.codey/914.data/914-009.onnx/*
+!900.maintenance/910.codey/914.data/914-009.onnx/.gitkeep
+900.maintenance/910.codey/912.vein/912-009.npz/*
+!900.maintenance/910.codey/912.vein/912-009.npz/.gitkeep
+.env
+desktop.ini
+Thumbs.db
+.DS_Store
+.obsidian/workspace*.json
+900.maintenance/910.codey/919.logs/*
+!900.maintenance/910.codey/919.logs/.gitkeep
